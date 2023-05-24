@@ -9,6 +9,7 @@ int main ()
    int i = 0, num = 0;
    char romanNumber[100]; 
 
+
    scanf("%s", romanNumber);
 
    while(romanNumber[ i ])
@@ -16,7 +17,9 @@ int main ()
    
       if(convert(romanNumber[ i ]) < 0 )
       {
-         
+         printf("
+Invalid Roman Number.
+");
          return 0;
       }
 
